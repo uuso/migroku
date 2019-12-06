@@ -121,3 +121,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+# параметр, определяющий, где в файловой системе будут храниться статические файлы,
+# собранные при помощи команды collectstatic из разных приложений
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
