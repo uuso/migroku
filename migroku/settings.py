@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'migroku.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-LOCAL_DB = True
+LOCAL_DB = False
 
 DATABASES = {
     'default':
